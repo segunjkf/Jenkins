@@ -9,7 +9,7 @@ pipeline {
             }
 
         }
-        stage ("build") {
+        stage ("Test") {
             
             steps{
                 echo "This is the deploy stage"
