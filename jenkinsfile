@@ -8,7 +8,6 @@ pipeline {
         stage ("build") {
             steps{
                 echo "buiding the application"
-                echo "buiiding version ${NEW_VERSION}"
             }
         }
         stage ("Test") { 
